@@ -9,7 +9,6 @@ fn main() {
 }
 
 fn find_marker(message: &str, num_distinct_chars: i32) -> Option<i32> {
-    // let mut chars: Vec<char> = message.chars().collect::<Vec<char>>();
     let mut marker_value: Option<i32> = None;
     for i in 0..message.len() {
         let char_range = &message[i..i + num_distinct_chars as usize];
