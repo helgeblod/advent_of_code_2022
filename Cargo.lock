@@ -63,6 +63,10 @@ dependencies = [
 [[package]]
 name = "day09"
 version = "0.1.0"
+dependencies = [
+ "grid",
+ "indoc",
+]
 
 [[package]]
 name = "day10"
